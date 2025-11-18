@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .stars{
+            height: 100vh;
+            background-image: url(/MEDIA/Canopus-58d14d585f9b581d7245ccc7.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .earth, .earth-1{
+            animation-name: rotation;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+        }
+        .earth{
+            position: relative;
+            padding: 50px;
+            animation-duration: 10s;
+        }
+        .earth-1{
+            height: 300px;
+            width: 300px;
+            animation-duration: 10s;
+        }
+        .moon{
+            height: 70px;
+            width: 70px;
+            position: absolute;
+            animation-duration: 15s;
+            right: 0;
+            top: 0;
+        }
+        @keyframes rotation {
+            to{transform: rotateZ(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="stars">
+        <div class="earth">
+            <img class="earth-1" src="/MEDIA/globe-1348777_960_720.webp" alt="">
+            <img class="moon" src="/MEDIA/Realistic_Moon_PNG_Clipart-1017681179.png" alt="">
+        </div>
+    </div>
+</body>
+</html>

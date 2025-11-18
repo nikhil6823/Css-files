@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AccesingValue</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Username" id="name" name="uname">
+        <br>
+        <label for="">Choose your gender: </label>
+        <input type="radio" name= "gender" value="Male">Male
+        <input type="radio" name= "gender" value="Female">Female
+        <input type="radio" name= "gender" value="Others">Others
+        <br>
+        <label for="">Choose your Language: </label>
+        <input type="checkbox" name="lang" value="English">English
+        <input type="checkbox" name="lang" value="Hindi">Hindi
+        <input type="checkbox" name="lang" value="Telugu">Telugu
+        <input type="checkbox" name="lang" value="Malayalam">Malayalam
+        <input type="checkbox" name="lang" value="Tamil">Tamil
+        <br>
+        <label for="fav">Choose your favorite food: </label>
+        <select name="Fav-Food" id="fav">
+            <option value="Pizza">Pizza</option>
+            <option value="Idli">Idli</option>
+            <option value="Pani Puri">Pani Puri</option>
+            <option value="Vada Pav">Vada Pav</option>
+        </select>
+        <br>
+        <!--HTML5-->
+        <label for="">Choose Your Country: </label>
+        <input list="country" name="country">
+        <datalist id="country">
+            <option value="India">
+            <option value="USA">
+            <option value="UK">
+            <option value="Canada">
+            <option value="Australia">
+        </datalist>
+        <br>
+        <input type="range">
+        <input type="submit" value="Confirm">
+        <input type="reset" value="Clear">
+        <br>
+    </form>
+</body>
+</html>

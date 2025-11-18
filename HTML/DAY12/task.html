@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <form action="">
+        <table border="">
+            <tr>
+                <td colspan="2"><b>Step 1: Your Details</b></td>
+            </tr>
+            <tr>
+                <td><label for="">Name: </label></td>
+                <td><input type="text" placeholder="First and Last Name" name="flname" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Email: </label></td>
+                <td><input type="email" placeholder="example@domain.com" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Phone</label></td>
+                <td><input type="tel" placeholder="Eg. +447500000000" name="phone" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Step 2: Delivery Address</b></td>
+            </tr>
+            <tr>
+                <td><label for="">Address: </label></td>
+                <td><textarea name="address" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="">Post Code: </label></td>
+                <td><input type="text" name="pcode" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Country: </label></td>
+                <td><input type="text" name="country" required></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Step 3: Card Details</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="">Card Type</label>
+                    <br>
+                    <input type="radio" name="card" value="Visa" required>💳Visa
+                    <input type="radio" name="card" value="AmEx" required>💳AmEx
+                    <input type="radio" name="card" value="MasterCard" required>💳MasterCard
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Card Number:  </label></td>
+                <td><input type="text" name="cnum" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Security Code:  </label></td>
+                <td><input type="text" name="scode" required></td>
+            </tr>
+            <tr>
+                <td><label for="">Name on Card:  </label></td>
+                <td><input type="text" placeholder="Exact name as on the card" name="nocard" required></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" value="Buy it"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        div{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        img{
+            height: 400px;
+        }
+        img[alt="img-1"]{
+            animation: leftImage 5s ease-in;
+        }
+        img[alt="img-3"]{
+            animation: rightImage 5s ease-in;
+        }
+        img[alt="img-2"]{
+            animation: centerImage 5s;
+            animation-delay: 5s;
+        }
+        @keyframes leftImage {
+            from{content: url(https://cdn.pixabay.com/photo/2025/01/27/20/18/wheat-9364066_1280.jpg);}
+            to{transform: rotateY(180deg); content: url(https://cdn.pixabay.com/photo/2025/10/01/00/29/inside-dandlion-9865287_1280.jpg);}
+        }
+        @keyframes rightImage {
+            from{content: url(https://cdn.pixabay.com/photo/2025/06/19/16/21/adventure-9669323_1280.jpg);}
+            to{transform: rotateY(180deg); content: url(https://cdn.pixabay.com/photo/2025/10/05/07/11/candles-9874140_1280.jpg);}
+        }
+        @keyframes centerImage {
+            from{content: url(https://cdn.pixabay.com/photo/2023/12/06/17/34/grill-8434113_1280.jpg);}
+            to{transform: rotateX(180deg); content: url(https://cdn.pixabay.com/photo/2025/10/02/15/18/sheikh-zayed-grand-mosque-9868660_1280.jpg);}
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="https://cdn.pixabay.com/photo/2025/10/01/00/29/inside-dandlion-9865287_1280.jpg" alt="img-1">
+        <img src="https://cdn.pixabay.com/photo/2025/10/02/15/18/sheikh-zayed-grand-mosque-9868660_1280.jpg" alt="img-2">
+        <img src="https://cdn.pixabay.com/photo/2025/10/05/07/11/candles-9874140_1280.jpg" alt="img-3">
+    </div>
+</body>
+</html>

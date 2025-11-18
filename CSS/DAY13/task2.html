@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* .square{
+            margin:10px;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            transition: background-color 2s, transform 2s, border-radius 2s ;
+        }
+        .square:hover{
+            background-color: skyblue;
+            transform: translateX(500px) rotate(45deg);
+            border-radius: 50%;
+            border: none
+        } */
+        .scale{
+            margin:10px;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            transition: transform 2s ;
+        }
+        .scale:hover{
+            transform: scale(50%);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="square"></div> -->
+    <div class="scale"></div>
+</body>
+</html>

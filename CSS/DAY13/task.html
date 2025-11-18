@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            background-color: black;
+        }
+        .car{
+            width: 250px;
+            height: 100px;
+            transition: transform 1s ease;
+        }
+        .car:hover{
+            transform: translateX(80vw);
+        }
+    </style>
+</head>
+<body>
+    <img class="car" src="https://static.vecteezy.com/system/resources/thumbnails/038/967/706/small_2x/red-cartoon-car-png.png" alt="car">
+</body>
+</html>

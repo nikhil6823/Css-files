@@ -1,0 +1,45 @@
+        /* descendent selector */
+/* .cont p{
+    text-align: center;
+    color: blue;
+} */
+
+
+/* child selector */
+.cont > p{
+    text-align: center;
+    color: blue;
+}
+.cont + p{
+    text-align: center;
+    color: green;
+}
+
+/* adjacent sibling selector */
+.demo + p{
+    color: red;
+}
+
+/* general sibling selector */
+.mode ~ p{
+    color: orange;
+}
+
+.cont{
+    /* border-width: 20px;
+    border-style: solid;
+    border-color: chartreuse; */
+    margin: 20px;
+    padding: 20px;
+    /* background-color: lightgrey;  */
+    border-top: 20px dashed blue;
+    border-bottom: 20px dashed blue;
+    border-left: 20px dashed blue;
+    border-right: 20px dashed blue;
+}
+.col{
+    background-color: brown;
+}
+.align{
+    text-align: center;
+}

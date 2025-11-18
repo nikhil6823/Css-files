@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imgg{
+    width: 100vw;
+}
+ 
+#img1{
+    filter: blur(5px);
+    transition-property: filter;
+    transition-duration: 1s;
+}
+#img1:hover{
+    filter: blur(0px) invert(100%);
+}
+#img2{
+    filter: brightness(0%);
+    transition-property: filter;
+    transition-duration: 3s ;
+}
+#img2:hover{
+    filter: brightness(100%) contrast(150%) sepia(100%) hue-rotate(180deg);
+}

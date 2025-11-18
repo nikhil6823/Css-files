@@ -1,0 +1,8 @@
+@import url("./task.css");
+p{
+            text-align: center;
+            margin-top: 30px;
+            color: white;
+            font-size: 10rem;
+            text-shadow: 10px 10px 10px red, -10px 10px 10px blue;
+        }

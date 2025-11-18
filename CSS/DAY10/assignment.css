@@ -1,0 +1,22 @@
+.btn1  { background: linear-gradient(90deg, #43cea2, #185a9d); color: #fff; border: none; padding: 12px 28px; border-radius: 12px; box-shadow: 0 2px 8px #185a9d44; transition: transform 0.2s; }
+.btn1:hover { transform: scale(1.08); background: linear-gradient(90deg, #185a9d, #43cea2); }
+.btn2  { background: #ff6f00; color: #fff; border: none; padding: 14px 32px; border-radius: 50px; font-size: 20px; box-shadow: 0 4px 12px #ff6f0044; letter-spacing: 2px; transition: box-shadow 0.2s; }
+.btn2:hover { box-shadow: 0 8px 24px #ff6f0088; }
+.btn3  { background: linear-gradient(135deg,#f44336, #e57373); color: #fff; border: none; padding: 16px 44px; border-radius: 0 30px 30px 0; font-weight: bold; transition: background 0.3s; }
+.btn3:hover { background: linear-gradient(135deg,#e57373, #f44336); }
+.btn4  { background: #fff; color: #333; padding: 12px 28px; border: 2px dashed #333; border-radius: 16px; font-style: italic; transition: border 0.2s; }
+.btn4:hover { border: 2px solid #333; }
+.btn5  { background: #222; color: #fff; padding: 12px 28px; box-shadow: 0 0 16px #ff5252; border-radius: 8px; font-size: 18px; }
+.btn6  { background: #fff; color: #04AA6D; border: 2px solid #04AA6D; padding: 12px 28px; border-radius: 50px; font-weight: bold; transition: background 0.3s, color 0.3s; }
+.btn6:hover { background: #04AA6D; color: #fff; }
+.btn7  { background-image: linear-gradient(45deg, #2196F3, #21CBF3); color: #fff; border: none; padding: 14px 34px; font-weight: bold; border-radius: 20px; box-shadow: 0 2px 8px #2196F344; }
+.btn8  { background: linear-gradient(90deg, #FFC107, #FF9800); color: #333; border: none; padding: 14px 32px; border-radius: 0 0 20px 20px; font-size: 18px; font-weight: bold; }
+.btn9  { background: #282828; color: #ee5253; border: 2px dotted #ee5253; padding: 14px 32px; border-radius: 12px; font-size: 17px; font-family: monospace; }
+.btn10 { background: linear-gradient(90deg, #B388FF, #7C4DFF); color: #fff; border: none; border-radius: 20px; font-size: 19px; padding: 16px 36px; box-shadow: 0 2px 8px #7C4DFF44; }
+.btn11 { background: #fff; color: #673AB7; border: 2px solid #673AB7; border-radius: 12px; padding: 12px 28px; font-weight: bold; transition: background 0.3s, color 0.3s; }
+.btn11:hover { background: #673AB7; color: #fff; }
+.btn12 { background: #F50057; color: #fff; border: 2px solid #F50057; transition: background 0.3s, color 0.3s; padding: 12px 28px; border-radius: 8px; font-weight: bold; }
+.btn12:hover{ background:#fff; color:#F50057;}
+.btn13 { background: linear-gradient(90deg, #00C853, #B2FF59); color: #222; padding: 16px 28px; border: none; letter-spacing: 4px; border-radius: 24px; font-size: 18px; font-weight: bold; }
+.btn14 { background: #263238; color: #FFEB3B; border-bottom: 6px solid #FFEB3B; padding: 12px 28px; border-radius: 0 0 16px 16px; font-size: 17px; }
+.btn15 { background: #fff; color:#00BFAE; border:2px solid #00BFAE; border-radius:40px; box-shadow:0 0 16px #00BFAE; padding: 16px 44px; font-size: 20px; font-weight: bold; }

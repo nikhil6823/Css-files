@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.col{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: black;
+    
+}
+#img{
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2019/MLP.jpg);
+}
+#img2{
+    background-image: url(https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/MLP/TVOD/TVOD_MLP_Right.jpg);
+}

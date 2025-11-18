@@ -1,0 +1,20 @@
+:root{
+    --bg-col: black;
+    --col:green;
+}
+h1{
+    
+    color: var(--col) ;
+    background-color: var(--bg-col);
+}
+
+.demo{
+    color: blue ;
+}
+
+#item{
+    color: var(--col);
+}
+p{
+    color: var(--col);
+}

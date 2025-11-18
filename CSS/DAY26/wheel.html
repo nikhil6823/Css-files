@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .move{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .car-move{
+            width: 100%;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            position: absolute;
+            /* left: 30px; */
+            animation-name: move;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-duration: 1s;
+        }
+        .car{
+            height: 200px;
+            position: relative;
+        }
+        .car1{
+            height: 100%;
+            width: 100%;
+        }
+        .wheel{
+            height: 120px;
+            width: 120px;
+            position: absolute;
+            left: 65px;
+            bottom: 0;
+            animation-name: rotate;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        .wheel2{
+            height: 110px;
+            width: 110px;
+            position: absolute;
+            right: 95px;
+            bottom: 0;
+            animation-name: rotate;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+        @keyframes rotate {
+            to{transform: rotateZ(360deg);}
+        }
+        @keyframes move {
+            to{transform: translateX(45vw);}
+        }
+
+    </style>
+</head>
+<body>
+    <div class="move">
+        <div class="car-move">
+            <div class="car">
+                <img class="car1" src="/sepweb/MEDIA/images (1).jpg" alt="">
+                <img class="wheel" src="/sepweb/MEDIA/wheel2.png" alt="">
+                <img class="wheel2" src="/sepweb/MEDIA/wheel2.png" alt="">
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
